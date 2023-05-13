@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--ข้อมูลพื้นฐานของเว็ปไซต์-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เว็บเกี่ยวกับการเขียนโปรแกรม">
+    <meta name="author" content="Agathit Domrongwatanagoon">
+    <meta nake="keywords" content="html css javascript">
+    <!--หัวข้อหน้าเว็บของเรา-->
+  <title>DNS - Domain Name System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-left: 30px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <!-- ... โค้ด HTML อื่นๆ ... -->
+  <h1>DNS - Domain Name System</h1>
+  
+  <p>
+    <h2 style="color: red;">62011080 Agathit Domrongwatanagoon</h2>
+    The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the internet or a private network. It translates domain names, which are meaningful to humans, into numerical IP addresses, which are used to identify and locate computer systems and devices on the network.
+  </p>
+  
+  <h2>How DNS Works</h2>
+  
+  <p>
+    DNS works by using a distributed database system and a client-server architecture. When a user types a domain name in their web browser, the browser sends a request to a DNS resolver (typically provided by their Internet Service Provider). The resolver then queries other DNS servers in order to find the IP address associated with the domain name.
+  </p>
+  
+  <h2>DNS Records</h2>
+  
+  <p>
+    DNS uses various types of records to store information about a domain name. Some commonly used DNS record types include:
+  </p>
+  
+  <ul>
+    <li>A (Address) record: Maps a domain name to an IP address.</li>
+    <li>CNAME (Canonical Name) record: Maps an alias or subdomain to the canonical (true) domain name.</li>
+    <li>MX (Mail Exchanger) record: Specifies the mail server responsible for accepting email messages on behalf of a domain.</li>
+    <li>TXT (Text) record: Stores arbitrary text information associated with a domain.</li>
+  </ul>
+  
+  <h2>DNS Security</h2>
+  
+  <p>
+   
+    DNS is a critical component of internet infrastructure and is prone to various security threats. Some of the common DNS security measures include DNSSEC (DNS Security Extensions), which provides data integrity and authentication for DNS responses, and DNS filtering, which helps prevent access to malicious or unwanted websites.
+  </p>
+  
+  <h2>Illustrative Images</h2>
+  
+  
+  
+  <div class="image-container">
+    <img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/6Cxvsc4NOvmU4pPkKbkDmP/a7588a4c8a3c187e9175a40fa1b3d548/dns_record_request_sequence_authoritative_nameserver.png" alt="Image 1" width="400px" height="300px">
+    <img src="https://blogs.manageengine.com/wp-content/uploads/2022/10/Screenshot-2022-10-17-at-5.27.27-PM.png" alt="Image 2" width="400px" height="300px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC__gaaHuHa2uLDSNm6ZBGUS9rKXrgBYJkGg&usqp=CAU" alt="Image 3" width="400px" height="300px">
+  
+</body>
+</html>
